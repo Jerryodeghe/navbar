@@ -1,0 +1,158 @@
+*,*::before,*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* 
+* first section of the index page
+*/
+
+.section_one {
+    background:linear-gradient(rgba(39, 86, 62, 0.86),rgba(0, 128, 64, 1)), url('../images/cmd_hm_img1.jpeg');
+    background-color: rgba(39, 86, 62, 0.86);
+    min-width: 100%;
+    height: 430px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;  
+}
+
+.cmd_message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 2rem;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.cmd_msg {
+    text-align: left;
+    width: 75%;
+    margin: 0 0 .2rem 0;
+    padding: 0 5% 0;
+    line-height: 1.5;
+}
+
+.cmd_message__landing {
+    padding: 1rem;
+}
+
+.cmd_msg__sub {
+    font-size: 1.3rem;
+}
+
+.message_more {
+    width: 100%;
+    display: flex;
+    align-content: left;
+    padding-left: 6%;
+}
+
+.cmd_message__goto {
+    width: 165px;
+    height: 45px;
+    background: orange;
+    border-color: orange;
+    /* margin-left: 7%; */
+}
+
+/* 
+* second section of the index page
+*/
+.section_two {
+    background-color: #ebecf0;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    padding: 45px .6rem;
+    background-color: #ebecf0;
+}
+
+.about_content {
+    text-align: center;
+    padding-top: 12px; 
+}
+
+.content_header {
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.view_content {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-top: 5px solid rgba(39, 86, 62, 0.86);
+    height: 320px;
+    width: 33%;
+    padding: 5px;
+    margin: 5px 1.8rem;
+    background-color: #ffffff;
+}
+
+.view_title {
+    color: rgba(39, 86, 62, 0.86);
+    margin-top: 24px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+.more_content {
+    margin: 28px;
+}
+
+.fild_content{
+    color: darkslategrey;
+    margin-top: 30px;
+    line-height: 16px;
+}
+
+.field_more_wp{
+   height: 100%;
+   width: 100%;
+}
+
+.link_align {
+    margin-top: 15%;
+}
+
+.fild_more_btn {
+    display: inline-block;
+    width: 115px;
+    height: 38px;
+    background: #4E9CAF;
+    padding: 8px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*
+* Section 3
+*/
+
+.news{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.news_content {
+    /* width: 20% */
+}
+
+.news_img {
+    height: 65px;
+    width: 65px;
+}

@@ -1,0 +1,39 @@
+*,*::before,*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.content_wp {
+    width: 100% !important;
+} 
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.cmd_logo {
+    width: 45px;
+    height: 45px;
+}
+
+.btn {
+    width: 165px;
+    height: 45px;
+    background: orange;
+    border-color: orange;
+}
+
+.btn_link {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding-top: 12px; 
+    width: 115px;
+    height: 45px;
+    color: #ffffff;
+    background: rgba(39, 86, 62, 0.86);
+    border: 2px solid rgba(39, 86, 62, 0.86);
+}
